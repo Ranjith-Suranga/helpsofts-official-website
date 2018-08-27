@@ -1,0 +1,61 @@
+/* =================================================================================================
+Description
+----------------------------------------------------------------------------------------------------
+	Contains support for third party plugins, that don't have an own file and only need a few
+	styles to integrate nicely with the theme.
+
+Table of Contents
+----------------------------------------------------------------------------------------------------
+	01 Events Espresso Styles
+	02 NextGEN
+	03 Lightbox Plus Colorbox
+	04 Polylang Styles
+================================================================================================= */
+
+
+/* Events Espresso Styles
+================================================================================================= */
+
+.tkt-slctr-tbl-wrap-dv table { margin-bottom: 10px; }
+
+/* NextGen Styles (to make sure the lightboxes stay on top of header etc)
+================================================================================================= */
+#fancybox-overlay {
+	z-index: 100049 !important;
+}
+
+#fancybox-wrap {
+	z-index: 100050 !important;
+}
+
+div#shShutter {
+	z-index: 100049;
+}
+
+div#shDisplay {
+	z-index: 100050
+}
+
+/* Lightbox Plus Colorbox (to make sure the lightboxes stay on top of header etc)
+================================================================================================= */
+#cboxOverlay {
+	z-index: 100049 !important;
+}
+
+#colorbox {
+	z-index: 100050 !important;
+}
+
+/* Polylang Styles
+================================================================================================= */
+.fusion-main-menu,
+.fusion-secondary-menu {
+	.lang-item {
+		> a {
+			img {
+				vertical-align: middle;
+				padding: 0 2px;
+			}
+		}
+	}
+}
